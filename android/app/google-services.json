@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453435016075",
+    "project_id": "filesharewithfirebaase",
+    "storage_bucket": "filesharewithfirebaase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453435016075:android:494b88c304b40d92a5258e",
+        "android_client_info": {
+          "package_name": "com.example.filesharewithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDguTxyLrVWTKPG4doajiG48Ma0q6fXDNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
