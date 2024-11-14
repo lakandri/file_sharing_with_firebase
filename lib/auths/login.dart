@@ -98,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     contentPadding:
                         EdgeInsets.symmetric(vertical: 20.0, horizontal: 20.0),
                   ),
-              =-09),
+                ),
                 SizedBox(height: 20),
                 if (_errorMessage.isNotEmpty)
                   Text(
@@ -115,7 +115,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           await authService.signIn(_email, _password);
                           Navigator.pushReplacement(
                               context,
-                     /         MaterialPageRoute(
+                              MaterialPageRoute(
                                   builder: (context) => HomePage()));
                         } catch (e) {
                           setState(() {
